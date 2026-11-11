@@ -1,0 +1,28 @@
+# 비밀 정보 — 절대 GitHub에 올리지 않는다
+.env
+.env.*
+secrets/
+*.pem
+*.key
+
+# Claude 개인 설정 (각자 컴퓨터에만 둔다)
+.claude/settings.local.json
+.mcp.json
+.vscode/mcp.json
+
+# 운영체제가 만드는 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 프로그래밍 언어별 임시 파일
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+.ipynb_checkpoints/
+
+# 한글·워드 임시 파일
+~$*
+*.tmp

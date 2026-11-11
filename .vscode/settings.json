@@ -1,0 +1,6 @@
+{
+  "chat.useAgentsMdFile": true,
+  "chat.useAgentSkills": true,
+  "files.autoSave": "afterDelay",
+  "git.confirmSync": true
+}

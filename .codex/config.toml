@@ -1,0 +1,12 @@
+# OpenAI Codex 프로젝트 설정
+# Codex는 사용자가 이 폴더를 "신뢰한다(trust)"고 표시했을 때만 이 파일을 읽는다.
+
+# 명령을 실행하거나 폴더 밖을 건드려야 할 때 학생에게 먼저 묻는다.
+approval_policy = "on-request"
+
+# 이 과제 폴더 안에서만 파일을 쓸 수 있다. 폴더 밖 파일은 고치지 못한다.
+sandbox_mode = "workspace-write"
+
+# MCP 서버 예시 — 쓰려면 아래 두 줄 앞의 # 를 지운다. (docs/05 참고)
+# [mcp_servers.context7]
+# url = "https://mcp.context7.com/mcp"
